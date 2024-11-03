@@ -1,4 +1,6 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gatin19/Script/refs/heads/main/Source.lua')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gatin19/Script/refs/heads/main/Librarys/Source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Dollar | Natural disaster", HidePremium = false})
 
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "ScreenGui"
