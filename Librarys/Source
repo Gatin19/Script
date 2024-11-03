@@ -657,14 +657,14 @@ function OrionLib:MakeWindow(WindowConfig)
 		UIHidden = true
 		OrionLib:MakeNotification({
 			Name = "Interface Hidden",
-			Content = "Tap 9 to reopen the interface",
+			Content = "Tap F7 to reopen the interface",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
 	end)
 
 	AddConnection(UserInputService.InputBegan, function(Input)
-		if Input.KeyCode == Enum.KeyCode.Nine and UIHidden then
+		if Input.KeyCode == Enum.KeyCode.F7 and UIHidden then
 			MainWindow.Visible = true
 		end
 	end)
