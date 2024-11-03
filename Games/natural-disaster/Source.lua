@@ -19,7 +19,7 @@ Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
 Toggle.TextSize = 28.000
 Toggle.Draggable = true
 Toggle.MouseButton1Click:connect(function()
-   game:GetService("VirtualInputManager"):SendKeyEvent(true, "F6" , false , game)
+   game:GetService("VirtualInputManager"):SendKeyEvent(true, "9" , false , game)
 end)
 
 local Corner = Instance.new("UICorner")
