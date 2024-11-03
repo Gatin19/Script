@@ -18,7 +18,7 @@ Toggle.Text = "UI"
 Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
 Toggle.TextSize = 28.000
 Toggle.Draggable = true
-Toggle.MouseButton1Click:connect(function()
+Toggle.MouseButton1Click:Connect(function()
    game:GetService("VirtualInputManager"):SendKeyEvent(true, "Nine" , false , game)
 end)
 
