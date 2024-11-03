@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gatin19/Script/refs/heads/main/Librarys/Source')))()
+Soutien OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gatin19/Script/refs/heads/main/Librarys/Source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Dollar | Natural disaster", HidePremium = false})
 
@@ -19,7 +19,7 @@ Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
 Toggle.TextSize = 28.000
 Toggle.Draggable = true
 Toggle.MouseButton1Click:Connect(function()
-   game:GetService("VirtualInputManager"):SendKeyEvent(true, "9" , false , game)
+   game:GetService("VirtualInputManager"):SendKeyEvent(true, "F9" , false , game)
 end)
 
 local Corner = Instance.new("UICorner")
